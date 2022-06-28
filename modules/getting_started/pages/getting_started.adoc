@@ -1,0 +1,188 @@
+indexmenu_n_1
+
+== Getting Started
+
+This manual is somewhat outdated. It is essential to read the summaries
+of updates to versions 4.8.8, 5.0.0 and 5.2.0 mentioned below, to
+understand how OpenCPN works nowadays.
+https://opencpn.org/OpenCPN/info/downloadopencpn.html[OpenCPN Website
+Download Page]
+
+=== OpenCPN 5.2.4
+
+OpenCPN version 5.2.4 was released on October 18, 2020. It is a bug
+fixing release with some graphical and user interface improvements.
+
+=== OpenCPN 5.2.0
+
+OpenCPN version 5.2.0 was released on July 15 , 2020. A summary of the
+changes is available https://opencpn.org/OpenCPN/about/ver520.html
+
+=== 
+
+=== OpenCPN 5.0.0
+
+OpenCPN version 5.0.0 was released on March 23, 2019. A summary of new
+features as well as retired features is available
+https://opencpn.org/OpenCPN/about/ver500.html or as an
+link:../manual/opencpn_version_5.0.0-changelog.epub[Ebook .epub] . Using
+this document together with the old 4.8.8 manual it's possible to gain
+information on (almost) all features in 5.0.0. A rewrite of this manual
+is required to fully document the new version.
+
+Required reading YachtValhalla's PDF Tutorial for the new user starting
+up link:../manual/exploring_opencpn_v5.0_.pdf[Exploring OpenCPN
+(v5).pdf]
+
+=== OpenCPN 4.8.8
+
+Welcome! This is the Documentation for the OpenCPN 4.8.8 stable release.
+There are still areas that are not fully updated, however an excellent
+summary of https://opencpn.org/OpenCPN/about/ver482.html[Improvements
+since v4.8.0] is available. It is very easy and intuitive to get started
+with OpenCPN. The different menus, including the clever
+context-sensitive right-click menu, make it likely that you will find
+what you need. The program contains a lot of options to fit users with
+special demands and hardware.
+
+Required reading YachtValhalla's PDF Tutorial for the new user starting
+up link:../manual/exploring_opencpn_v4_.pdf[Exploring OpenCPN (v4)]
+
+=== HELP, FAQ & OpenCPN User Manual
+
+The most frequently asked questions by new users, seen in the
+http://www.cruisersforum.com/forums/f134[OpenCPN Forum], are, in most
+cases, already answered in the *+++OpenCPN USER MANUAL+++*. If you are
+going to use this program for actual navigation, you need to read
+through this document to fully understand the scope of the program, as
+well as all the details.
+
+If you have difficulties finding a particular subject, please *use your
+browser's built-in search ability*, often called just “*Find*”. This
+works best using the stable release which is all on one web page.
+
+In the Program “OpenCPN” Press
+image:../manual/help.png[image,width=25,height=25] and then the *Help
+Tab* to access the built-in version of this document. The installed
+documentation will open in your default browser. *This is the first
+place to go for help, read the documentation please*.
+
+==== Android Opencpn Manual App
+
+Download the OpenCPN User Manual App from Playstore, and run it
+directly. It has an embedded eBook reader, so no need for lithium. The
+Playstore app is here:
+
+* https://play.google.com/store/apps/details?id=org.opencpn.opencpnusermanual&hl=en
+
+==== User Manual Download
+
+HTML files and directories. Uncompress into a new folder and use your
+browser to access the help files:
+
+* http://opencpn.navnux.org/data/doc482.7z[OpenCPN-4.8.2.7z (doc482.7z)
+20mb]
+
+Epub Book Reader can be used Calibre Reader or Firefox Epub Extension:
+
+* http://opencpn.navnux.org/doc/OpenCPN%20User%20Manual-4-8-6-Sept-18-18-compress-lossy-2-70pc.epub[OpenCPN-4-8-6-Sept-18-18-compress-lossy-2-70pc.epub
+mb (16mb)]
+
+PDF OpenCPN User Manual Download:
+
+* http://opencpn.navnux.org/doc/OpenCPN%20User%20Manual-4-8-6-Sept-18-18-medium-compressed.pdf[OpenCPN-4-8-6-Sept-18-18-medium-compressed.pdf
+(25mb)]
+
+The other way to download/mirror the html help files is to use
+https://www.httrack.com/[HTTrack Website Copier]. Download it and make
+mirror a copy of the current manual to your computer. Don't forget too
+add filters so that file links are not downloaded! See
+https://www.httrack.com/html/faq.html#Q1b1[FAQ] For example, add file
+filters for -*.zip, -*.7z and any other linked files you do not want
+downloaded.
+
+==== To help you get started:
+
+* Links in _italic_ are internal to this document. Placing your cursor
+over a link will cause the link to be underlined.
+* External links may be *Bold*, +++Underlined+++, or in the “http:/\…”
+format and need an Internet connection.
+* *Marks* and *Waypoints* may have somewhat different definitions;
+however, in this document they generally mean the same thing.
+
+image:../manual/help-about.jpeg[help-about.jpg,title="help-about.jpg",width=356,height=311]
+
+=== Copy Settings File & Log File to Clipboard
+
+If you encounter difficulties in using OpenCPN you may be asked to
+submit your *Settings File* and/or your *Log File*. This data will help
+the developers to diagnose your problem.
+
+To locate these files, in the program “OpenCPN” Press
+image:../manual/help.png[image,width=25,height=25] and then the *About
+Tab* and two tabs will show as shown below:
+
+[.np_break]# #
+
+[cols=",,",]
+|===
+|Copy Settings File to Clipboard |Copy Log File to Clipboard |Donate
+|===
+
+[.np_break]# #
+
+Use these tabs for an easy way to copy these files, and then paste the
+clipboard contents to a document and attach it to a Cruiser's Forum
+post.
+
+As you can see above, image:../manual/help.png[image,width=24,height=24]
+also documents the people contributing to OpenCPN and a copy of the
+license OpenCPN uses, GNU GENERAL PUBLIC LICENSE Version 2. We are
+always looking for volunteers.
+
+=== Agreement Before Using OpenCPN
+
+Here is the note that all users have to approve when installing the
+program.
+
+[source,code]
+----
+OpenCPN is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details. 
+OpenCPN must only be used in conjunction with approved paper
+ charts and traditional methods of navigation. 
+DO NOT rely upon OpenCPN for safety of life or property.
+----
+
+This is not a text on general navigation. We assume that you are
+familiar with nautical navigation. Reading this text and using OpenCPN
+will not in itself make you a “navigator”.
+
+=== IMPORTANT NEXT STEPS
+
+*Getting started using OpenCPN consists of 4 basic steps:*
+
+* link:getting_started/opencpn_installation.html[OpenCPN Installation]
+Will lead you through installing OpenCPN on your particular OS and
+computer.
+* link:getting_started/chart_installation.html[Chart Installation] of
+Charts to be read by OpenCPN (OpenCPN does not include charts)
+* link:charts.html[Charts] Basic Features - Main Source for using charts
+* link:getting_started/gps_setup.html[GPS Setup] to communicate with
+your computer and OpenCPN (Optional, but very useful) Completing these 4
+steps will get you started and allow you to check out the program.
+
+There is also a very useful PDF Tutorial for the new user starting up
+called
+http://www.mediafire.com/file/8a0wr8e53ddrh95/Exploring+OpenCPN+%28v4%29.pdf[Exploring
+OpenCPN (v4)]
+
+If you still have questions or would just like to get in touch with
+other OpenCPN users, there is a large community behind OpenCPN. You can
+find us in this http://www.cruisersforum.com/forums/f134/[Cruisers
+Forum.]
+
+If you are an advanced users with programming experience we recommend
+the link:../developer_manual.html[Developers Manual].

@@ -1,0 +1,3 @@
+= Basics Manual
+
+xref:getting_started:getting_started.adoc[Getting Started]
