@@ -18,8 +18,6 @@ jobs:
         run: ci/build-and-deploy.sh
       - name: "Check links using linkchecker"
         run: ci/linkchecker.sh
-      - name: "Check for dokuwiki references"
-        run: ci/dokuwiki-links.sh
       - name: "Check for unresolved Antora xrefs"
         run: ci/unresolved-xrefs.sh
       - name: "Full linkcheck (requires [full-linkcheck] in subject)"
