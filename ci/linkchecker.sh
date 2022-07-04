@@ -7,4 +7,5 @@ else
     tail -10 linkcheck.log
     paste_link=$(curl -F 'f:1=<-' ix.io < linkcheck.log)
     echo "Complete linkchecker log is at $paste_link"
-fi
+fi 
+

@@ -20,24 +20,13 @@ checklink \
     --suppress-broken '403:$dokuwiki?id=opencpn:opencpn_user_manual' \
     --suppress-broken '-1:https://cubian.org/downloads/' \
     --suppress-broken '-1:https://cubian.org/2013/08/12/enlarge-cubian-rootfs-partition/' \
-    --exclude adsabs.harvard.edu \
-    --exclude amazon.com \
+    --suppress-redirect 'https://opencpn-manuals.github.io/development->https://opencpn-manuals.github.io/development/' \
     --exclude apple.com \
-    --exclude bethandevans.com \
     --exclude bigdumboat.com \
-    --exclude blogspot.com \
+    --exclude  cloudsmith.io/orgs/opencpn \
     --exclude cruisersforum.com \
-    --exclude docs.google.com \
-    --exclude facebook.com \
-    --exclude marine-knowledge.com \
-    --exclude meanwell.com \
-    --exclude navigation-spreadsheets.com \
-    --exclude opencpn.org/wiki/dokuwiki \
+    --exclude firebasestorage.googleapis.com \
+    --exclude github.com/travis-ci \
+    --exclude mailto: \
     --exclude opencpn.org \
-    --exclude translate.google.com \
-    --exclude twocanplugin@hotmail.com	\
-    --exclude youtube.com \
-    --exclude youtu.be \
-    --suppress-redirect 'https://opencpn-manuals.github.io/plugins->https://opencpn-manuals.github.io/plugins/' \
-    --masquerade "https://opencpn-manuals.github.io/plugins $PWD/docs" \
     --depth 4 -s docs/index.html |& grep -v "Use of uninitialized value"
