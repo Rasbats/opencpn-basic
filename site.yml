@@ -1,8 +1,8 @@
 ---
 site:
   title: OpenCPN Basics
-  url: https://Rasbats.github.io/Basics/
-  start_page: index.adoc
+  url: https://Rasbats.github.io/opencpn-basics/
+  start_page: ROOT::index.adoc
 
 content:
   branches:
