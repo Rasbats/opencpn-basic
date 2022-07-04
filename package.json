@@ -1,5 +1,5 @@
 {
-  "name": "opencpn-basics-manual",
+  "name": "opencpn-basics",
   "version": "0.1.0",
   "description": "Experimental build of OpenCPN Basics Manual. ",
   "main": "index.js",
