@@ -1,11 +1,9 @@
 site:
   title: OpenCPN Basics
   url: https://Rasbats.github.io/opencpn-basics/
-  start_page: ROOT::index.adoc
+  start_page: basics-manual::index.adoc
 
 content:
-  branches:
-    - main
   sources:
    - url: .
      branches: HEAD
@@ -13,7 +11,8 @@ content:
 ui:
   bundle:
     url: ./ui-bundle.zip
-  
+    snapshot: true
+    
 output:  
   dir: ./docs
   clean: true
