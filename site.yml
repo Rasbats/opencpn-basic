@@ -1,7 +1,7 @@
 site:
   title: OpenCPN Basics
   url: https://Rasbats.github.io/opencpn-basics/
-  start_page: basics-manual::index.adoc
+  start_page: basics_manual::index.adoc
 
 content:
   sources:
