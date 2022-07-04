@@ -1,2 +1,4 @@
 name: basics_manual
 version: ~
+nav: 
+- modules/ROOT/nav.adoc
