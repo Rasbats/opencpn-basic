@@ -1,7 +1,7 @@
 {
-  "name": "opencpn-manuals",
+  "name": "opencpn-basics-manual",
   "version": "0.1.0",
-  "description": "Experimental update of OpenCPN Antora manuals. ",
+  "description": "Experimental build of OpenCPN Basics Manual. ",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leamas/manuals-v2.git"
+    "url": "git+https://github.com/Rasbats/opencpn-basics.git"
   },
-  "author": "Alec Leamas",
+  "author": "Mike Rossiter",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/leamas/manuals-v2/issues"
+    "url": "https://github.com/Rasbats/opencpn-basics/issues"
   },
-  "homepage": "https://github.com/leamas/manuals-v2#readme",
+  "homepage": "https://github.com/Rasbats/opencpn-basics#README.md",
   "devDependencies": {
     "@antora/cli": "3.0.0",
     "npm": "8.5.1"
