@@ -22,7 +22,7 @@ xref:getting_started:getting_started.adoc[HERE] is a link to the *Home Screen* p
 
 https://opencpn.org/[HERE] is an external link to the OpenCPN website.
 
-Hover the mouse over https://opencpn.org/[HERE] and the tooltip shows where the link leads. 
+Hover the mouse over https://opencpn.org/[HERE] and the browser shows where the link leads. 
 
 == Mouse Actions
 
